@@ -1,0 +1,88 @@
+/* ProjectCard.css */
+.project-card {
+    display: block;
+    position: relative;
+    width: 33.33%;
+    /* height: 278px; */
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* background-color: red; */
+  }
+
+  .project-card:hover {
+    /* width: 300px; */
+    /* transform: scale(1.05); */
+  }
+  
+  .project-card-image {
+    width: 100%;
+    /* height: 200px; */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card-content {
+    padding: 1.6rem;
+    background-color: #fff;
+  }
+  
+  .project-card-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card-tag {
+    background-color: #007bff;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+
+.portifolio.dark .project-card-tag {
+  background-color: #9b59b6;
+}
+
+.portifolio.dark .project-card-tag:hover {
+  background-color: #8e44ad;
+}
+
+.portifolio.dark .project-card-content {
+    background-color: #444;;
+}
+
+.show {
+  position: absolute; /* Posiciona a camada sobre o conteúdo */
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show #h2 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.noShow {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .project-card {
+    width: 100%;
+    /* background-color: red; */
+  }
+}

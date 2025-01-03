@@ -1,0 +1,383 @@
+.hearderWithe button {
+  /* background-color: #ff4e02; */
+}
+
+.hearderWithe button:hover {
+  /* background-color: #ff4e02; */
+}
+
+.hearderButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  margin-left: 1.6rem;
+}
+
+
+.portifolio .one {
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  color: #1a1a1a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hearderWithe {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.portifolio .one h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.portifolio .one p {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.portifolio .icon {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #708090;
+}
+
+.portifolio .icon:hover {
+  color: #87CEEB;
+  /* color: black; */
+  /* background-color: red; */
+}
+
+.portifolio .one img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.portifolio .one .icons {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.portifolio .two div {
+  /* background-color: #f3f4f6; */
+  /* width: 70%; */
+  width: 70%;
+  padding: 0;
+  /* width: 70%; */
+}
+
+.portifolio .two p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300; 
+  font-size: 2rem; 
+  color: #333; 
+  text-align: center; 
+  line-height: 1.5; 
+}
+
+.portifolio .three .container {
+  /* background-color: red; */
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* padding: 0 7rem; */
+}
+
+
+.portifolio .three .container h2 {
+  font-size: 1.6rem;
+}
+
+.portifolio .three .container .item {
+/* background-color: #FFFFFF; */
+/* background-color: #fff; */
+width: 50px;
+display: inline-block; 
+padding: 8px 16px; 
+/* margin: 3px;  */
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: 300; 
+/* font-size: 2rem;  */
+/* color: #4a4a4a;  */
+/* background-color: #e5f1ff; */
+/* border-radius: 50%;  */
+/* border-radius: 20px; */
+border: none; 
+cursor: pointer; 
+/* text-align: center;  */
+}
+
+/* .portifolio .three .container .item:hover {
+  background-color: #d4e6ff;
+} */
+
+.portifolio .four {
+  /* gap: 10rem; */
+}
+
+.portifolio .four h1 {
+  margin-bottom: 2rem;
+}
+
+.portifolio .four .container {
+  /* background-color: #f3f4f6; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  /* background-color: red; */
+}
+
+.portifolio .four .container h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  /* background-color: red; */
+}
+
+.portifolio .four .containerProject {
+  display: flex;
+  /* flex-direction: colum; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento entre os botões */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.email {
+  background-color: #2563EB; /* Cor azul */
+}
+
+.download {
+  background-color: #1F2937; /* Cor preta */
+}
+
+.button .i {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+  font-size: 18px;
+  /* padding: 1.6rem 0; */
+}
+
+.button:hover {
+  opacity: 0.9; /* Efeito de opacidade ao passar o mouse */
+}
+
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1a1a1a;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+}
+
+.footerBlack {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  background-color: #444;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Estilos para o modo escuro */
+/* header {
+  background-color: #88C0D0;
+} */
+
+.hearderBlack {
+  background-color: #444;
+}
+
+.portifolio.dark .one {
+background-color: #444; /* Cor de fundo escura */
+color: white; /* Cor do texto branca */
+}
+
+.portifolio.dark .sec {
+background-color: #444; /* Cor de fundo das seções no modo escuro */
+}
+
+.portifolio.dark .icon {
+color: white; /* Ícones brancos no modo escuro */
+}
+
+/* Garantindo que textos e botões estejam brancos */
+.portifolio.dark h1,
+.portifolio.dark h2,
+.portifolio.dark p,
+.portifolio.dark .button {
+color: white; /* Texto e botões brancos */
+}
+
+/* Estilos para o botão de ligar/desligar */
+.toggle-container {
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+/* width: 60px; */
+/* height: 30px; */
+/* background-color: #ccc; */
+border-radius: 30px; 
+/* position: relative; */
+/* transition: background-color 0.3s; */
+}
+
+.toggle-container.active {
+/* background-color: #9b59b6; */
+}
+
+/* Estilos para a parte interna do botão */
+.toggle {
+width: 26px;
+height: 26px;
+/* background-color: white;  */
+border-radius: 50%; /* Bordas redondas para criar o círculo */
+position: absolute; /* Para movimentação suave */
+transition: transform 0.3s; /* Transição suave para a animação */
+top: 2px; /* Para centralizar verticalmente */
+left: 2px; /* Para centralizar horizontalmente */
+font-size: 200px;
+}
+
+/* Estilo quando está ativado (modo escuro) */
+.toggle.active {
+transform: translateX(30px); /* Move o círculo para a direita */
+}
+
+/* Estilos para o botão de alternância */
+.toggle-button {
+background-color: #444;
+margin: 1rem; /* Espaçamento em torno do botão */
+cursor: pointer; /* Muda o cursor para indicar que é clicável */
+/* background-color: rgba(68, 68, 68, 0.9); */
+/* width: 30px; */
+/* height: 30px; */
+/* border-radius: 50%; */
+/* padding: 0.5rem 2rem; */
+/* background-color: #007BFF; */
+border: none; /* Remove a borda padrão */
+color: #8e44ad;
+background-color: #fff;
+/* color: #ff4e02; */
+/* border-radius: 25px; */
+font-size: 2rem; /* Tamanho da fonte */
+/* transition: background-color 0.3s, transform 0.2s; */
+display: inline-block; /* Para que o botão respeite o padding */
+}
+
+/* Efeito de hover para o botão no modo claro */
+/* .toggle-button:hover {
+background-color: #0056b3; 
+transform: scale(1.05); 
+} */
+
+/* Estilos para o modo escuro */
+.portifolio.dark .toggle-button {
+/* color: #8e44ad; */
+color: #ff4e02;
+background-color: #444;
+/* background-color: rgba(255, 255, 255, 0.9); */
+}
+
+/* Efeito de hover para o botão no modo escuro */
+.portifolio.dark .toggle-button:hover {
+/* background-color: #8e44ad; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .portifolio .three .container {
+    width: 80%;
+  }
+  
+  
+  .portifolio .three .container .item {
+    /* background-color: #FFFFFF; */
+    width: 50px;
+  }
+
+  .portifolio .two div {
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+
+
+  
+  .portifolio .four h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .portifolio .four .container {
+    /* background-color: #f3f4f6; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 3rem;
+    /* background-color: red; */
+  }
+  
+  .portifolio .four .container h2 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  
+  .portifolio .four .containerProject {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: auto;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start; */
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .portifolio .three .container {
+    width: 80%;
+  }
+  
+  
+  .portifolio .three .container .item {
+    /* background-color: #FFFFFF; */
+    width: 50px;
+  }
+
+  .portifolio .two div {
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+}
